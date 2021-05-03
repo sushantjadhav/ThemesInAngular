@@ -1,0 +1,68 @@
+@use '../1-abstracts/index' as *;
+
+// Default Button ----------------------------------------
+button {
+    min-width: $btn-default-width;
+    height: $btn-default-height;
+
+    font-size: $btn-default-font-size;
+    border-radius: $btn-default-radious;
+
+    background-color: $color-info-light;
+    border: solid 2px $color-info-base;
+    
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    border: solid 2px black;
+}
+
+// BUTTON SIZE ----------------------------------------
+.btn-small {
+    min-width: $btn-small-width;
+    height: $btn-small-height;
+
+    font-size: $btn-small-font-size;
+    border-radius: $btn-small-radious
+}
+
+.btn-large {
+    min-width: $btn-large-width;
+    height: $btn-large-height;
+
+    font-size: $btn-large-font-size;
+    border-radius: $btn-large-radious
+}
+
+// BUTTON SHADES  ----------------------------------------
+.btn-primary {
+    background-color: $color-primary-light;
+    border-color: $color-primary-base; 
+}
+
+.btn-secondary {
+    background-color: $color-secondary-light;
+    border-color: $color-secondary-base; 
+}
+
+.btn-success {
+    background-color: $color-success-light;
+    border-color: $color-success-base; 
+}
+
+.btn-info {
+    background-color: $color-info-light;
+    border-color: $color-info-base; 
+}
+
+.btn-warning {
+    background-color: $color-warning-light;
+    border-color: $color-warning-base; 
+}
+
+.btn-danger {
+    background-color: $color-danger-light;
+    border-color: $color-danger-base; 
+}

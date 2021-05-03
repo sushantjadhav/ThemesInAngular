@@ -1,0 +1,54 @@
+@use './root';
+
+// ---------------------------------------
+// Colors
+// ---------------------------------------
+$color-foreground-base: var(--dark);
+$color-background-base: var(--white);
+
+// Base Colors
+$color-primary-base: var(--primary);
+$color-secondary-base:var(--secondary);
+$color-success-base:var(--success);
+$color-info-base: var(--info);
+$color-warning-base:var(--warning);
+$color-danger-base:var(--danger);
+
+
+// Light Colors
+$color-primary-light: var(--primary);
+$color-secondary-light:var(--secondary);
+$color-success-light:var(--success);
+$color-info-light: var(--info);
+$color-warning-light:var(--warning);
+$color-danger-light:var(--danger);
+
+// Dark Colors
+$color-primary-dark: var(--primary);
+$color-secondary-dark:var(--secondary);
+$color-success-dark:var(--success);
+$color-info-dark: var(--info);
+$color-warning-dark:var(--warning);
+$color-danger-dark:var(--danger);
+
+// ---------------------------------------
+// Button Weidth and Height
+// ---------------------------------------
+$btn-small-width: 3.906rem;
+$btn-small-height: 1.8rem;
+$btn-small-font-size: .875rem;
+$btn-small-radious: .2rem;
+
+$btn-default-width: 5rem;
+$btn-default-height: 2.3rem;
+$btn-default-font-size: 1rem;
+$btn-default-radious: .250rem;
+
+$btn-large-width: 9rem;
+$btn-large-height: 3rem;
+$btn-large-font-size: 1.25rem;
+$btn-large-radious: .3rem;
+
+// ---------------------------------------
+// Textbox Weidth and Height
+// ---------------------------------------
